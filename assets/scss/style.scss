@@ -1,0 +1,983 @@
+@import "./bootstrap/bootstrap";
+
+
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100% !important; 
+  margin: 0;
+	padding: 0;
+}
+
+body {
+
+    font-family: 'Oswald', sans-serif;
+  background-color: black;
+text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+a{
+  
+}
+.bannerp{
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+.logoC{
+  width: 30%;
+}
+
+article{
+ 
+  width: 100%;
+} 
+
+footer{
+  ul{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  li{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  h5{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  h3{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  p{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  a{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  
+}
+body.modal-open{
+  padding: 0 !important;
+}
+///////////////////
+//////NavBar///////
+///////////////////  
+
+  i{
+    font-size: 3em;
+  }
+
+
+
+
+
+.logo-nav1 {
+  width: 2%;
+  height: 2%;
+  padding-top: 0.4%;
+}
+
+@media(min-width:940px) {
+  .navul{
+         ul{
+           width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+li {
+
+font-size: 1.25em;
+}
+  }
+
+
+.logo-nav {
+width: 5%;
+}
+
+.partager {
+border-radius: 10%;
+}
+.logo-nav2{
+  display: none;
+}
+
+
+}
+.logo-nav2{
+  width: 10%;
+}
+@media(max-width:940px){
+.logo-nav1 {
+display: none;
+}
+
+}
+
+
+
+///////////////////
+//////accueil//////
+/////////////////// 
+
+.secAccueil {
+  padding: 0px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.txtAccueil {
+  background-color: #958FB3!important;
+ 
+
+  p {
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+///////////////////
+//////Cinema///////
+///////////////////
+
+
+
+
+.terminator{
+  @media(min-width:740px) {
+    .card{
+  height: 800px;
+  }
+  
+    
+  }
+
+  .it1{
+    width: 101.6%;
+  }
+  
+
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  section{
+    
+    padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  }
+  article{
+    border: 1px solid black;
+    padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  }
+  div{
+    padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  }
+}
+
+.dateB {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  
+}
+.confeMovie{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.affiche{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;
+}
+
+.Black {
+
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  
+}
+
+.Yellow {
+ 
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+
+@media(min-width:940px) {
+  .vericaltext{
+  width:1px;
+  word-wrap: break-word;
+  white-space:pre-wrap; 
+  
+}
+}
+
+
+
+.banniere {
+  background-color: gray;
+  text-align: center;
+  padding: 3%;
+  font-size: 2em;
+}
+
+.img-wall-e {
+  width: 100%;
+  height: 300px;
+}
+
+.aos{
+  max-width: 100% !important;
+}
+
+.Black {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  
+}
+
+.Yellow {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.Trailer {
+  width: 100%;
+  height: 100%;
+}
+
+
+.film {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+
+
+
+
+@media(max-width:940px) {
+  body {
+    width: 100%;
+  }
+
+  ///////////////////
+  //////Cinema///////
+  ///////////////////
+
+  .Yellow {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .img-rsp {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+  }
+}
+
+
+  ///////////////////
+  //////Agenda///////
+  ///////////////////
+
+
+
+  .secAccueil {
+    padding: 0px;
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .txtAccueil {
+    background: linear-gradient(rgba(0, 0, 0, 0.644)), url("/All/maquettes/ressources/Banner/Info_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    p {
+      font-size: 20px;
+      text-align: center;
+      color: white;
+      font-weight: bolder;
+    }
+  }
+  
+  .jumbotron {
+    margin: 0;
+  }
+   ///////////////////
+    //////Agenda///////
+    ///////////////////
+  
+    #timeline{
+      color:$primary;
+    }
+    .timeline {
+      list-style: none;
+      padding: 0px 0 20px !important;
+      position: relative;
+    }
+    
+      .timeline:before {
+          top: 0;
+          bottom: 0;
+          position: absolute;
+          content: " ";
+          width: 3px;
+          background-color: $primary;
+          left: 50%;
+          margin-left: -1.5px;
+      }
+    
+      .timeline > li {
+          margin-bottom: 60px;
+          position: relative;
+      }
+    
+          .timeline > li:before,
+          .timeline > li:after {
+              content: " ";
+              display: table;
+          }
+    
+          .timeline > li:after {
+              clear: both;
+          }
+    
+          .timeline > li:before,
+          .timeline > li:after {
+              content: " ";
+              display: table;
+          }
+    
+          .timeline > li:after {
+              clear: both;
+          }
+    
+          .timeline > li > .timeline-panel {
+              width: 46%;
+              float: left;
+              border: 1px solid $primary;
+              background-color: $primary;
+              border-radius: 2px;
+              padding: 20px;
+              position: relative;
+              -webkit-box-shadow: 0 1px 6px $primary;
+              box-shadow: 0 1px 6px $primary;
+              transition: width 2s linear;
+          }
+    
+              .timeline > li > .timeline-panel:before {
+                  position: absolute;
+                  top: 26px;
+                  right: -15px;
+                  display: inline-block;
+                  border-top: 15px solid transparent;
+                  border-left: 15px solid $primary;
+                  border-right: 0 solid $primary;
+                  border-bottom: 15px solid transparent;
+                  content: " ";
+              }
+    
+              .timeline > li > .timeline-panel:after {
+                  position: absolute;
+                  top: 27px;
+                  right: -14px;
+                  display: inline-block;
+                  border-top: 14px solid transparent;
+                  border-left: 14px solid $primary;
+                  border-right: 0 solid $primary;
+                  border-bottom: 14px solid transparent;
+                  content: " ";
+              }
+    
+          .timeline > li > .timeline-badge {
+              color: rgb(0, 0, 0);
+              width: 50px;
+              height: 50px;
+              line-height: 50px;
+              font-size: 1.4em;
+              text-align: center;
+              position: absolute;
+              top: 16px;
+              left: 50%;
+              margin-left: -25px;
+              background-color: $primary;
+              z-index: 100;
+              border-top-right-radius: 50%;
+              border-top-left-radius: 50%;
+              border-bottom-right-radius: 50%;
+              border-bottom-left-radius: 50%;
+              cursor:pointer;
+          }
+    
+          .timeline > li.timeline-inverted > .timeline-panel {
+              float: right;
+          }
+    
+              .timeline > li.timeline-inverted > .timeline-panel:before {
+                  border-left-width: 0;
+                  border-right-width: 15px;
+                  left: -15px;
+                  right: auto;
+              }
+    
+              .timeline > li.timeline-inverted > .timeline-panel:after {
+                  border-left-width: 0;
+                  border-right-width: 14px;
+                  left: -14px;
+                  right: auto;
+              }
+    
+    .timeline-badge.primary {
+      background-color: $primary !important;
+    }
+    
+    .timeline-badge.success {
+      background-color: $primary  !important;
+    }
+    
+    .timeline-badge.warning {
+      background-color: $primary  !important;
+    }
+    
+    .timeline-badge.danger {
+      background-color: $primary  !important;
+    }
+    
+    .timeline-badge.info {
+      background-color: $primary  !important;
+    }
+    
+    .timeline-title {
+      margin-top: 0;
+      color: inherit;
+    }
+    
+    .timeline-body > p,
+    .timeline-body > ul {
+      margin-bottom: 0;
+    }
+    
+      .timeline-body > p + p {
+          margin-top: 5px;
+      }
+    
+    @media (max-width: 767px) {
+      ul.timeline:before {
+          left: 40px;
+      }
+    
+      ul.timeline > li > .timeline-panel {
+          width: calc(100% - 90px);
+          width: -moz-calc(100% - 90px);
+          width: -webkit-calc(100% - 90px);
+      }
+    
+      ul.timeline > li > .timeline-badge {
+          left: 15px;
+          margin-left: 0;
+          top: 16px;
+      }
+    
+      ul.timeline > li > .timeline-panel {
+          float: right;
+      }
+    
+          ul.timeline > li > .timeline-panel:before {
+              border-left-width: 0;
+              border-right-width: 15px;
+              left: -15px;
+              right: auto;
+          }
+    
+          ul.timeline > li > .timeline-panel:after {
+              border-left-width: 0;
+              border-right-width: 14px;
+              left: -14px;
+              right: auto;
+          }
+    }
+    .hidden{
+      display:none;
+
+    }
+    .infos-agenda{
+      color:black;
+        &:hover{
+          color:#fff;
+        }
+    }
+    .margin0{
+      margin-bottom:8px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////
+
+#main{ 
+  font-family: "Futura";
+}
+#evenements {
+  font-family: "Futura";
+
+  padding-bottom: 2%;
+  padding-top: 0%;
+}
+#banniereEvenements,#banniereConferences {
+  font-family: "Futura";
+padding:0%;
+}
+
+.groupWork{
+  width: 100%;
+  margin: 0px;
+  .lineWorkOne{
+    justify-content: center;
+    padding-bottom: 8px;
+  }
+  .lineWorkTwo{
+    text-transform: uppercase;
+  }
+}
+
+#footer {
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-color:white;
+  font-family: "Futura";
+}
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  #button {
+    margin: 30px;
+  }
+}
+.content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
+
+
+
+////////////////////////////////////////////////////////////
+///////////////////////////////conference//////////////////
+///////////////////////////////////////////////////////////
+.cf{
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.card {
+  width: 100% !important;
+  
+}
+
+.bottom {
+  width: 100% !important;
+  padding: 5%;
+  
+}
+
+
+
+
+
+
+////////////////////////////////////////////////////////////
+///////////////////////////////conference//////////////////
+///////////////////////////////////////////////////////////
+.imcf{
+  padding: 0 !important;
+}
+
+.cf{
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.card {
+  width: 100% !important;
+  
+}
+
+.bottom {
+  width: 100% !important;
+  padding: 5%;
+  
+}
+.lien-noir{
+  color:black;
+    &:hover{
+      color:#fff;
+    }
+}
+.lien-jaune{
+  color:$primary;
+    &:hover{
+      color:#fff;
+    }
+}
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////
+///////////////////////////////event//////////////////
+///////////////////////////////////////////////////////////
+
+
+.event{
+  div{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+}
+
+.eventimg{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////
+/////////////////// VIDEO GAMES //////////////////////////
+//////////////////////////////////////////////////////////
+
+.visiteGuide{
+  padding: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  color: #F8E44C;
+  background-color: black;
+}
+
+.games{
+  background-color: #F8E44C;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gamesList{
+  a{
+      padding: 0px;
+  }
+}
+.gameTrailer{
+  text-align: center;
+  padding: 20px;
+}
+.trailerContent {
+  p{
+  font-size: 22px;
+  }
+  .describeGame{
+      text-align: justify;
+  }
+}
+
+.card-group{
+  height: 170px;
+  border: 0px;
+  margin: 5px;
+}
+.gameOne{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameTwo{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameThree{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameFour{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 170px;
+  }
+}
+.gameFive{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameSix{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameSeven{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameEight{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameNine{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameTen{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 170px;
+  }
+}
+.gameEleven{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameTwelve{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+.gameThirteen{
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  &:hover{
+      cursor: pointer;
+  }
+  img{
+    height: 100%;
+  }
+}
+
+.trailer{
+  background: transparent;
+  border: 0px;
+}
+
+@media screen and (max-width: 575px){
+  .visiteGuide{
+      h2{
+          font-size: 20px;
+      }
+  }
+  .card-group{
+      height: 120px;
+  }
+  .gameOne, .gameTwo, .gameThree, .gameFour, .gameFive, .gameSix, .gameSeven, .gameEight, .gameNine, .gameTen, .gameEleven, .gameTwelve, .gameThirteen{
+      height: 120px;
+      img{
+        height: 170px;
+      }
+  }
+  .trailerContent {
+      h1{
+          font-size: 25px;
+      }
+      p{
+      font-size: 17px;
+      }
+      .describeGame{
+          text-align: justify;
+      }
+  }
+}
